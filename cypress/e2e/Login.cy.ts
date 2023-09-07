@@ -1,4 +1,4 @@
-import routesFixtures from "../utils/routes"
+import {routesFixtures} from "../utils/routes"
 describe('Login test', () => {
   it('it should be able to do the login successfully', () => {
     cy.login()
