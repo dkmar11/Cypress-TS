@@ -1,3 +1,5 @@
+//baseUrl:"https://jsonplaceholder.typicode.com",
+
 import {routesEndpoint} from '../utils/routes'
 import {httpMethod} from '../utils/httpMethod'
 

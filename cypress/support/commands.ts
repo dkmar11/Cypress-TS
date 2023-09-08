@@ -1,4 +1,7 @@
-import routesFixtures from "../utils/routes";
+//baseUrl:"https://practicetestautomation.com/practice-test-login",
+
+import {routesFixtures} from "../utils/routes";
+import 'cypress-iframe';
 
 Cypress.Commands.add("login", (user:string|undefined, password:string|undefined) => {
   user = user === undefined ? Cypress.env('username') : user;

@@ -1,4 +1,9 @@
 {
-  "tittle":"h1",
-  "logoutButton":"a[class*='wp-block-button']"
+  "iframe":".livelink_viewer",
+  "workCapitalLabel":"[data-highcharts-chart='2'] text[class='highcharts-title']",
+  "totalEquityLabel":"[data-highcharts-chart='3'] text[class='highcharts-title']",
+  "workCapitalValues":"[data-highcharts-chart='2'] g[class*='highcharts-label'] text",
+  "totalEquityValues":"[data-highcharts-chart='3'] [class*='highcharts-label'] text"
 }
+
+

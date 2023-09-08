@@ -1,0 +1,4 @@
+{
+  "tittle":"h1",
+  "logoutButton":"a[class*='wp-block-button']"
+}

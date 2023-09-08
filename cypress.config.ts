@@ -1,7 +1,8 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
+  defaultCommandTimeout:20000,
   e2e: {
-    baseUrl:"https://jsonplaceholder.typicode.com/"
+    baseUrl:"https://www.clicdata.com/dashboards/balance-sheet",
   },
 });
